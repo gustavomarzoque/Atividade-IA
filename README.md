@@ -43,3 +43,12 @@ No fim das operações algorítmicas, a melhor solução e o seu valor são exib
 #### Gráficos
 
 No final, são exibidos os gráficos. Para a sua construção, utilizei a biblioteca Matplotlib. Um gráfico é o que exibe o erro ao longo de todas as iterações realizadas pelo algoritmo, enquanto o outro exibe o comportamento da temperatura ao longo de todas as iterações. Com isso, é possível analisar a convergência do algoritmo e a redução da temperatura.
+
+
+## Imagens dos Gráficos:
+
+![Situação 1](1.png)
+![Situação 2](2.png)
+![Situação 3](3.png)
+![Situação 4](4.png)
+
