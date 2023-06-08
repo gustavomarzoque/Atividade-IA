@@ -52,3 +52,22 @@ No final, são exibidos os gráficos. Para a sua construção, utilizei a biblio
 ![Situação 3](3.png)
 ![Situação 4](4.png)
 
+## Análise do resultado dos gráficos:
+
+#### Gráfico de Erros
+
+- O eixo X representa o número das iterações do algoritmo Simulated Annealing.
+- o eixo Y representa qual a diferença entre o valor da melhor solução achada até no momento e qual o valor da solução atual por iteração.
+- Se o gráfico apresenta uma tendência descrescente, é um indicativo que o algoritmo está se convergindo pra uma solução melhor à medida que são feitas novas iterações. Quanto menor erro, melhor é a solução.
+- É esperado tambem que o erro vai diminuindo à medida que o algoritmo vai avançando e que, eventualmente chegue próximo de zero ou que se estabilize em um valor mínimo. Isso vai indicar que o algoritmo está com uma solução ótima ou muito próximo disso.
+- Se o gráfico apresentar flutuações ou um padrão irregular, isso pode ser um indicativo que o algoritmo ficou preso em mínimos locais ou está explorando o espaço de uma maneira não ideal.
+
+#### Gráfico da Temperatura
+
+- O eixo X representa o número das iterações do algoritmo Simulated Annealing.
+- O eixo y representa qual o valor de temperatura por iteração.
+- A temperatura é considerada como um parâmetro crítico do algoritmo, pois, controla a probabilidade de se aceitar soluções piores à medida que o algoritmo vai avançando.
+- O gráfico da temperatura deve ter uma tendência decrescente à medida que as iterações vão avançando. Isso vai ocorrer pois a temperatura vai sendo resfriado de forma gradual pra permitir que seja realizada uma exploração mais intensa do espaço.
+- O resfriamento também tem como função de ajudar o algoritmo a escapar de mínimos locais, permitindo a aceitação ocasional de piores situações. Logo, é esperado que a temperatura diminua de forma lenta durante as iterações.
+- Se a temperatura reduzir muito rápido, o algoritmo pode ficar preso em mínimos locais e não conseguir explorar melhores situações.
+
